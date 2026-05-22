@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+bady{
+    margin: 0;
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+ header nav{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    padding-top: 50px;
+}
+nav .logo img{
+    width: 100px;
+}
+nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+main .hero img{
+    max-width: 100%;
+    margin-top: 50px;
+    
+}
+
+.secndSection .wrapper{
+    text-align: center;
+}
+
+.secndSection .wrapper .images{
+    display: flex;
+    grid-template-columns: 500px 150px 150px;
+    gap: 20px;
+}
+.secndSection .wrapper .images img{
+    width: 200px;
+}

@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    background-color: #f3ededcc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.contanier {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+
+
+
+}
+
+.wrapper {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+
+}
+
+
+
+nav {
+    display: flex;
+    gap: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+  
+}
+
+.logo a img {
+    width: 150px;
+    
+
+}
+
+.wrapper .link ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+
+
+}
+
+.wrapper .link ul a {
+    text-decoration: none;
+    display: inline;
+    color: rgba(74, 74, 74, 0.801);
+    font-size: larger;
+}
+
+nav .btn {
+    /* padding: 10px; */
+}
+
+nav .btn button {
+    margin: 0 12px;
+    padding: 10px;
+    border-radius: 10px;
+     padding: 10px 15px;
+     font-size: 15px;
+      /* border-color: #eee; */
+      border: 1px solid #eee
+}
+
+nav .btn .ArBtn {
+    background-color: #fff;
+    color: rgb(0, 197, 197);
+   
+   
+    
+    
+}
+
+nav .btn .contactBtn {
+    background-color: rgb(0, 197, 197);
+    color: #eee;
+    border-color: rgb(0, 197, 197);
+   
+}
+
+.program {
+    display: flex;
+
+
+
+}
+
+.program .item {
+    border: solid 2px #e7e7e7;
+    width: 20%;
+    margin: 0 20px;
+    border-radius: 5%;
+    padding:40px 10px;
+
+}
+
+.program .item p {
+    font-size: 14px;
+}
+.program .item .contant {
+    
+}
+
+.program .image {
+
+    /* background-color: blue; */
+    width: 50px;
+    border-radius: 50% 50% 50% 0;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+
+}
+
+.program .image img {
+    /* width: 80%; */
+    padding: 25px;
+
+}
+
+.contanier .headText h1 {
+    font-weight: bold;
+    margin-top: 100px;
+    
+   
+
+}
+
+.contanier .headText h4 {
+    opacity: 50%;
+    margin-bottom: 50px;
+}
+
+.program .img1 .image{
+    background-color: rgb(11, 11, 87);
+}
+
+.program .img2 .image{
+    background-color: rgb(40, 164, 198);
+}
+
+.program .img3 .image{
+    background-color: rgb(251, 193, 130);
+}
+
+.program .img4 .image{
+    background-color: rgb(97, 97, 100);
+}
+
+.program .item  a{
+text-decoration: none;
+font-weight: bold;
+}
+
+
+
+.program .item .link1 a{
+    color: rgb(11, 11, 87);
+    
+}
+
+.program .item .link2 a{
+    color: rgb(40, 164, 198);
+    
+}
+.program .item .link3 a{
+    color: rgb(251, 193, 130);
+    
+}
+.program .item .link4 a{
+    color: rgb(97, 97, 100);
+    
+}
+
+.contanier2{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.section2 .contanier2 .wrapper{
+    display: flex;
+   
+}
+.section2 .contanier2 .headText{
+    width: 50%;
+}
+
+.section2 .contanier2 .numbers{
+    display: flex;
+    width: 50%;
+}
+
+.section2  .numbers .border{
+    width:220px;
+    height:100px;
+    margin: 10px;
+    
+}
+
+
+.section2  .numbers .Client {
+    display: flex;
+    background-color: rgb(254, 239, 223);
+    border-radius: 10px;
+}
+
+.section2  .numbers .experience{
+    display: flex;
+    background-color: rgb(242, 239, 239);
+    border-radius: 10px;
+    
+} 
+
+.section2  .numbers .talent {
+    display: flex;
+    background-color: rgb(204, 203, 203);
+    border-radius: 10px;
+}
+
+.section2  .numbers .project{
+    display: flex;
+    background-color: rgb(228, 241, 248);
+    border-radius: 10px;
+}
+
+.section2  .numbers .border .text{
+    /* display: flex; */
+}
+

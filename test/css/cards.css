@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+bady{
+    margin: 0;
+}
+
+.container{
+    width: 50%;
+     text-align: center;
+}
+.image img{
+    display: block;
+    width: 33%;
+
+}
+
+.product{
+    box-shadow: 0 0 0 10px #eee;
+}
+

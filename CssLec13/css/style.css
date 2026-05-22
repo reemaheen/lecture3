@@ -1,0 +1,40 @@
+bady {
+    margin: 0;
+}
+
+
+main .hero {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+main .hero img {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* Laptop Media */
+@media (min-width: 1200px) {}
+
+/* iPad Media */
+@media (min-width: 800px) and (max-width: 1199px) {
+    main .hero {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+/* Mobile Media */
+@media (max-width: 799px) {
+    main .hero {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
